@@ -1,4 +1,5 @@
 from .advection import AdvectionSolverTVD
+from .aquatic_habitat import AquaticHabitat
 from .area_slope_transporter import AreaSlopeTransporter
 from .bedrock_landslider import BedrockLandslider
 from .carbonate import CarbonateProducer
@@ -84,6 +85,7 @@ from .weathering import ExponentialWeatherer, ExponentialWeathererIntegrated
 COMPONENTS = [
     AdvectionSolverTVD,
     AreaSlopeTransporter,
+    AquaticHabitat,
     BedrockLandslider,
     CarbonateProducer,
     ChannelProfiler,
